@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first b4 webpage</title>
+   
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap4 cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+      
+      .my-link-style:hover{
+        text-decoration: underline;
+      }
+      
+      .carousel-item{
+        padding: 5% 15%;
+        text-align: center;
+        font-style: italic;
+      
+      }
+
+
+  </style>
+
+</head>
+<body>
+
+   <div class="container">
+
+    <header >
+     
+      <div class="navbar navbar-expand-sm bg-primary navbar-dark ">
+        
+        <a href="#" class="navbar-brand">
+          <img src="img/taoshiflex.jpg" alt="logoimage" style="width: 50px; height: 50px; border-radius: 0%;">
+        </a>
+        <!--Toggle button option starts(turned off for now)
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="flase" aria-controls="multiCollapseExample1 multiCollapseExample2">Options</button>
+        <div class="collapse" id="collapseExample">
+         
+         Ends-->
+  
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item "><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tutorial</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+        </ul>
+        </div>
+        </nav>
+      </nav>
+
+    </header>
+    <main>
+      <div class="service-section bg-white text-dark pt-3">
+         <div class="title text-center mb-3">
+          <h3 class="fw-bold">Services</h3>
+         </div>
+        <div class="row text-left text-md-center ">
+          <div class="col-lg-3 col-md-6">
+            <i class="bg-primary p-3 fa-2x text-white rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+            <h5 class="text-uppercase">1. HTML </h5>
+            <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate similique illo officiis facilis excepturi nihil dolorem, rerum accusamus ipsam.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="bg-primary p-3 fa-2x text-white rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+            <h5 class="text-uppercase">2. CSS</h5>
+            <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate similique illo officiis facilis excepturi nihil dolorem, rerum accusamus ipsam.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="bg-primary p-3 fa-2x text-white rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+            <h5 class="text-uppercase">3. C programming</h5>
+            <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate similique illo officiis facilis excepturi nihil dolorem, rerum accusamus ipsam.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="bg-primary p-3 fa-2x text-white rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+            <h5 class="text-uppercase">4. JAVA</h5>
+            <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate similique illo officiis facilis excepturi nihil dolorem, rerum accusamus ipsam.
+            </p>
+          </div>
+        </div>
+  
+       </div>
+
+       <!--About me section starts here-->
+       <div class="about-me m-1 py-2">
+          <div class="aboutme bg-primary">
+              <div class="container bg-primary row">
+                <h3 class="bg-secondary fw-bold m-auto col-sm-8 col-lg-10 text-center px-5 py-3 text-uppercase text-white">About me</h3>
+                <div class="image col-sm-5">
+                  <img class="d-block my-4 py-3 border rounded-circle img-thumbnail  px-0.5 py-0.5" src="/img/tao.jpg" alt="image">
+                </div>
+                <div class="paragrapgh py-4 fw-bold col-sm-5 col-lg-7">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam adipisci provident nemo enim ea veniam reprehenderit sit, nesciunt iusto exercitationem illum inventore neque officiis! Libero quo error dolore enim nesciunt. </p>
+                  
+                  <a class="mb-2 d-block text-danger" href="#demo" data-bs-toggle="collapse"">Learn more..</a> 
+                  <div id="demo" class="collapse">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illo deserunt sint. Nesciunt, temporibus ullam voluptatibus porro beatae a, minus suscipit itaque illum quod consequuntur. </p>
+                  </div>
+                  
+                   <button class="btn btn-danger mb-3 btn-sm">Download my resume</button>
+                   <button class="btn btn-danger mb-3 btn-sm">Download my resume</button>
+                   <a class="btn btn-outline-warning mb-3" href="#">Visit my channel</a>
+                                   
+                  <div class="alert alert-success alert-dismissible" role="alert">
+                    <button 
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="close">
+                   </button>FOLLOW ME
+                  </div>
+
+                  <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button 
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="close">
+                   </button>JOIN WITH ME
+                  </div>
+              
+              </div>
+
+          </div>
+       
+       </div>
+
+
+      <!--About me section ends here-->
+
+      <!--Tutorial section starts here-->
+      <div class="tutorial">
+        <div class="title text-center m-5 py-3 bg-dark text-light ">
+          <h3 class="fw-bold mb-0">Tutorial</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+
+              <img class="card-img-top" src="/img/Tlogo.jpeg" alt="logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">CSE</h4>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequuntur.</p>
+                <a class="card-link stretched-link" href="#" target="_blank">Visit my profile</a>
+              </div>
+
+              
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+
+              <img class="card-img-top" src="/img/Tlogo.jpeg" alt="logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">CSE</h4>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequuntur.</p>
+                <a class="card-link stretched-link" href="#" target="_blank">Visit my profile</a>
+              </div>
+
+              
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+
+              <img class="card-img-top" src="/img/Tlogo.jpeg" alt="logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">CSE</h4>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequuntur.</p>
+                <a class="card-link stretched-link" href="#" target="_blank">Visit my profile</a>
+              </div>
+
+              
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+
+              <img class="card-img-top" src="/img/Tlogo.jpeg" alt="logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">CSE</h4>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, consequuntur.</p>
+                <a class="card-link stretched-link" href="#" target="_blank">Visit my profile</a>
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--Tutorial section ends here-->
+
+     <!--customer review section starts here-->
+
+     <div class="customer-review text-center">
+      <div class="title text-center m-5 py-3 bg-dark text-light ">
+        <h3 class="fw-bold mb-0">Customer Review</h3>
+      </div>
+
+      <div class="row">
+        <div>
+          <blockquote class="blockquote">
+            <i class="p-3 fa-3x fas fa-user-circle"></i>
+            <p class="text-center">
+              Here we can can learn <abbr title="bootstrap5">BS5</abbr> very easily. After learning HTML, CSS, JAVA and C, it is high time to learn <abbr title="bootstrap5">BS5</abbr>.   BOOTSTRAP is so easy! thank you sir anisul islam. Only because of you, we can learn CSE very easily!!
+            </p>
+           <footer class="blockquote-footer">
+              Gazi Taoshif in <cite>Facebook</cite>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </div>
+  </div>
+     </div>
+
+     <!--customer review section ends here-->
+
+     <!--toggleable dynamic tab starts here-->
+     <hr>
+     <div class="other-section">
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a data-bs-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+        <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#skills">SKills</a></li>
+        <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#hobby">Hobby</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="edu" class="tab-pane fade active"><p> 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatum accusantium obcaecati nulla! Ut quae dicta quia assumenda harum optio ea neque nobis fuga, aspernatur eum! Placeat velit quisquam explicabo.</p></div>
+        <div id="skills" class="tab-pane fade"><p> 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, cum. Dolorum, optio. Modi accusamus quo id omnis dolor unde deleniti ut, tenetur cupiditate sed, repudiandae ex obcaecati fugit, pariatur hic.</p></div>
+        <div id="hobby" class="tab-pane fade"><p> 3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum soluta enim architecto illum! Ratione libero officia, rem exercitationem eos repellat enim quibusdam laudantium ipsam magnam assumenda vitae, voluptates porro deleniti.</p></div>
+        <hr>
+      </div>
+    </div>
+ 
+
+     
+     <!--toggleable dynamic tab ends here-->
+
+     <!--media object starts here-->
+     <div class="d-flex">
+      
+      <img style="width: 80px;" class="rounded-circle" src="/img/tao23.jpg" alt="">
+      <h5>I love programming</h5>
+      <div class="media-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam reiciendis at velit alias obcaecati.</p>
+      </div>
+    
+
+    </div>
+     <!--media object ends here-->
+
+     <!--table starts here-->
+     <br>
+    <table class="table table-bordered text-center table-hover table-success" >
+      <thead class="table-primary">
+        <tr>
+        <th>Degree</th>
+        <th>Institute</th>
+        <th>Result</th>
+        <th>Year</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td>JSC</td>
+        <td>ISC</td>
+        <td>5.0</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>SSC</td>
+        <td>ISC</td>
+        <td>5.0</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>HSC</td>
+        <td>BNMPC</td>
+        <td>5.0</td>
+        <td>2022</td>
+      </tr>
+      <tr>
+        <td>B.sc.</td>
+        <td>EWU</td>
+        <td>3.8</td>
+        <td>2027</td>
+      </tr>
+  
+      </tbody>
+    </table>
+
+     <!--table ends here-->
+
+    <!--form starts here-->
+      <div class="p-4">
+        <div><h2>User registration</h></div>
+        
+        <form class="bg-info ">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" id="password"  required>
+          </div>
+
+          <div class="mb-3">
+            <label for="department">Department: </label>
+            <select name="department" id="department" class="form-select-inline">
+              <option value="cse" >CSE</option>
+              <option value="eee" selected>EEE</option>
+              <option value="llb">LLB</option>
+            </select>
+          </div>
+
+
+         <div class="mb-3">
+          <div class="form-check-inline">
+            <input type="radio" class="form-check-input" id="male">
+            <label for="male">Male</label>
+          </div>
+          <div class="form-check-inline">
+            <input type="radio" class="form-check-input" id="female">
+            <label for="female">female</label>
+          </div>
+         </div>
+
+         <div class="mb-3">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="tnc">
+            <label for="tnc">Accept Terms & Conditions</label>
+          </div>
+         </div>
+
+          <div class="mb-3">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+          </form>    
+      
+      </div>
+    <!--form ends here-->
+
+     <!--student list starts here-->
+        <div class="student-list">
+          <ul class="list-group"><h3>Students List</h3>
+            <li class="list-group-item bg-danger text-white">Taoshif</li>
+            <li class="list-group-item bg-primary text-white">Shuvo</li>
+            <li class="list-group-item bg-success text-white">Rocky</li>
+          </ul>
+        </div>
+     <!--student list ends here-->
+
+     <!--carousel starts here-->
+     <e class="container">
+       <section style="background-color: darkblue;" id="feedback">
+        <div style="background-color: darkblue; padding:20px;" class="section-title text-white">
+          <h3 class="text-center">Feedback</h3>
+          <hr class="hr-style">
+        </div >
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-interval="2000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>item 1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellendus nesciunt, fugiat asperiores minima consequatur.</p>
+                  <img style="width: 200px; height: 200px;" class="feedback-img rounded-circle" src="/img/mouse1.jpg"  alt="...">
+                  <h5>mouse</h5>
+                </div>
+                <div class="carousel-item">
+                  <p>item 2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellendus nesciunt, fugiat asperiores minima consequatur.</p>
+                  <img style="width: 200px; height: 200px;" class="feedback-img rounded-circle" src="/img/mouse1.jpg"  alt="...">
+                  <h5>mouse</h5>
+                </div>
+                <div class="carousel-item">
+                  <p>item 3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellendus nesciunt, fugiat asperiores minima consequatur.</p>
+                  <img style="width: 200px; height: 200px;" class="feedback-img rounded-circle" src="/img/mouse1.jpg" class="" alt="...">
+                  <h5>Mouse</h>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     </div>
+     <!--carousel ends here-->
+
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">sex</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ok
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    </main>
+    <footer class="bg-dark ">
+             <ul class="pagination py-3 justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+    </footer>
+    
+  
+  
+    <!--JS, POPPERS BUNDLE-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
